@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF14D0D319161307003CFFFC /* haizei.png in Resources */ = {isa = PBXBuildFile; fileRef = BF14D0D219161307003CFFFC /* haizei.png */; };
 		BF1FE0EA1910A16C008E910A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1FE0E91910A16C008E910A /* Foundation.framework */; };
 		BF1FE0EC1910A16C008E910A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1FE0EB1910A16C008E910A /* CoreGraphics.framework */; };
 		BF1FE0EE1910A16C008E910A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1FE0ED1910A16C008E910A /* UIKit.framework */; };
@@ -21,6 +22,10 @@
 		BF1FE10B1910A16C008E910A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1FE0ED1910A16C008E910A /* UIKit.framework */; };
 		BF1FE1131910A16C008E910A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF1FE1111910A16C008E910A /* InfoPlist.strings */; };
 		BF1FE1151910A16C008E910A /* AHSeparatePoperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1FE1141910A16C008E910A /* AHSeparatePoperTests.m */; };
+		BF1FE1231910C150008E910A /* AHSeparatePoper.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1FE1221910C150008E910A /* AHSeparatePoper.m */; };
+		BF1FE1261910D2B7008E910A /* UIView+ViewFrameGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1FE1251910D2B7008E910A /* UIView+ViewFrameGeometry.m */; };
+		BF1FE1281910F563008E910A /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1FE1271910F563008E910A /* ContentView.xib */; };
+		BF1FE12A191101F6008E910A /* haizei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1FE129191101F6008E910A /* haizei@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF14D0D219161307003CFFFC /* haizei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haizei.png; sourceTree = "<group>"; };
 		BF1FE0E61910A16C008E910A /* AHSeparatePoper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHSeparatePoper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1FE0E91910A16C008E910A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF1FE0EB1910A16C008E910A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +59,12 @@
 		BF1FE1101910A16C008E910A /* AHSeparatePoperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AHSeparatePoperTests-Info.plist"; sourceTree = "<group>"; };
 		BF1FE1121910A16C008E910A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF1FE1141910A16C008E910A /* AHSeparatePoperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHSeparatePoperTests.m; sourceTree = "<group>"; };
+		BF1FE1211910C150008E910A /* AHSeparatePoper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHSeparatePoper.h; sourceTree = "<group>"; };
+		BF1FE1221910C150008E910A /* AHSeparatePoper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHSeparatePoper.m; sourceTree = "<group>"; };
+		BF1FE1241910D2B7008E910A /* UIView+ViewFrameGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewFrameGeometry.h"; sourceTree = "<group>"; };
+		BF1FE1251910D2B7008E910A /* UIView+ViewFrameGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewFrameGeometry.m"; sourceTree = "<group>"; };
+		BF1FE1271910F563008E910A /* ContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentView.xib; sourceTree = "<group>"; };
+		BF1FE129191101F6008E910A /* haizei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "haizei@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 		BF1FE0DD1910A16C008E910A = {
 			isa = PBXGroup;
 			children = (
+				BF1FE1201910C0CE008E910A /* Classes */,
 				BF1FE0EF1910A16C008E910A /* AHSeparatePoper */,
 				BF1FE10E1910A16C008E910A /* AHSeparatePoperTests */,
 				BF1FE0E81910A16C008E910A /* Frameworks */,
@@ -112,9 +125,12 @@
 		BF1FE0EF1910A16C008E910A /* AHSeparatePoper */ = {
 			isa = PBXGroup;
 			children = (
+				BF14D0D219161307003CFFFC /* haizei.png */,
+				BF1FE129191101F6008E910A /* haizei@2x.png */,
 				BF1FE0F81910A16C008E910A /* AppDelegate.h */,
 				BF1FE0F91910A16C008E910A /* AppDelegate.m */,
 				BF1FE0FB1910A16C008E910A /* Main.storyboard */,
+				BF1FE1271910F563008E910A /* ContentView.xib */,
 				BF1FE0FE1910A16C008E910A /* ViewController.h */,
 				BF1FE0FF1910A16C008E910A /* ViewController.m */,
 				BF1FE1011910A16C008E910A /* Images.xcassets */,
@@ -150,6 +166,17 @@
 				BF1FE1111910A16C008E910A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF1FE1201910C0CE008E910A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BF1FE1211910C150008E910A /* AHSeparatePoper.h */,
+				BF1FE1221910C150008E910A /* AHSeparatePoper.m */,
+				BF1FE1241910D2B7008E910A /* UIView+ViewFrameGeometry.h */,
+				BF1FE1251910D2B7008E910A /* UIView+ViewFrameGeometry.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +256,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF1FE1021910A16C008E910A /* Images.xcassets in Resources */,
+				BF14D0D319161307003CFFFC /* haizei.png in Resources */,
+				BF1FE12A191101F6008E910A /* haizei@2x.png in Resources */,
 				BF1FE0F41910A16C008E910A /* InfoPlist.strings in Resources */,
 				BF1FE0FD1910A16C008E910A /* Main.storyboard in Resources */,
+				BF1FE1281910F563008E910A /* ContentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1FE1231910C150008E910A /* AHSeparatePoper.m in Sources */,
 				BF1FE1001910A16C008E910A /* ViewController.m in Sources */,
 				BF1FE0FA1910A16C008E910A /* AppDelegate.m in Sources */,
 				BF1FE0F61910A16C008E910A /* main.m in Sources */,
+				BF1FE1261910D2B7008E910A /* UIView+ViewFrameGeometry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -456,6 +488,7 @@
 				BF1FE11A1910A16C008E910A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF1FE11B1910A16C008E910A /* Build configuration list for PBXNativeTarget "AHSeparatePoperTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +497,7 @@
 				BF1FE11D1910A16C008E910A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
